@@ -14,8 +14,10 @@ plugins {
 }
 
 launch4j {
+    outfile = 'MyApp.exe'
     mainClassName = 'com.example.myapp.Start'
     icon = "${projectDir}/icons/myApp.ico"
+    productName = 'My App'
 }
 
 // In this section you declare where to find the dependencies of your project
